@@ -14,6 +14,3 @@ interrupts, and selects the SMCLK
 `int checkCenterSensor()`
 -this method checks the center sensor and returns the hex value that corresponds to the voltage at the sensor
 
-Documentation:
-==============
-C2C Noel Nicholas gave me advice on the LPM in the main method and how to set P1DIR
