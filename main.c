@@ -8,6 +8,7 @@ void main(void) {
 	WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
 
 	 initializeSensors();
+	 P1DIR |= 0x41;                            // Set P1.0 to output direction
 
 	for (;;) {
 
